@@ -1,0 +1,25 @@
+# 密钥 / 凭据（严禁提交）
+.env
+.env.*
+!.env.example
+!.env.images.example
+*.env.bak*
+.rakazo_auth.json
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时 / 日志
+*.log
+logs/
+.DS_Store
+Thumbs.db
