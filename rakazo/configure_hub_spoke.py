@@ -28,7 +28,7 @@ import batch_create_bots as m
 
 ROOT = Path(__file__).resolve().parent.parent
 MODEL_PROVIDER = "openai-compatible"
-MODEL_ID = "sensenova-6.8-flash-lite"
+MODEL_ID = "sensenova-6.8-flash"
 MARKER = "## 工作模式（最高优先级）：中心调度"
 
 # 每组：bot 名 -> (人设文件相对 rakazo-team* 目录, 中心调度协议正文)
